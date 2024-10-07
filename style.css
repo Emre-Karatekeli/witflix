@@ -3,16 +3,180 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-red:#e50914;
+  --primary-black:#000000;
 }
 
+* {
+  border: 2px solid purple;
+  font-family: 'Signika';
+}
+
+.app{
+  width: 1200px;
+  height: 1400px;
+  border: 15px solid #e50914;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.colors{
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 96.5%;
+}
+.container1-2 {
+  display: flex;
+}
+
+.color1 .rect {
+  width: 520px;
+  height: 312px;
+}
+
+.color1 {
+  margin: 6% 2%;
+}
+.color2 .rect {
+  width: 520px;
+  height: 312px;
+  border: 3px solid white;
+}
+.color2 {
+  margin: 6% 2%;
+}
+.rect {
+  display: flex;
+  align-items: center;
+}
+.color3 {
+  width: 620px;
+  height: 210px;
+  margin-left: 2%;
+}
+.fourfoldrect {
+  display: flex;
+}
+.oneforth {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.color4 {
+  width: 540px;
+  height: 210px;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+.color4sub {
+  display: flex;
+  height: 82%;
+  justify-content: space-between;
+}
+.onethird{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.onethird h3,
+.onethird p {
+  margin: 7%;
+}
+
+.color5 {
+  width: 360px;
+  height: 210px;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+.color5sub {
+  display: flex;
+  height: 82%;
+  justify-content: space-between;
+}
+
+.colorhalf {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.colorhalf h3,
+.colorhalf p {
+  margin: 7%;
+}
+
+.colorhalf:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.colorhalf:nth-child(1) {
+  border: 1px solid white;
+}
+
+
+
+/* TYPOGRAPHY */
+
+.typo {
+  width: 1200px;
+  height: 1400px;
+  border: 15px solid #e50914;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+  
+.typosub {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 96.5%;
+}
+
+.typosub .divinfo {
+  height: 19%;
+}
+
+.typosub .divsub {
+  height: 13.5%;
+}
+
+.divinfo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.typosub1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divsub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.divsub:nth-of-type(even){
+  background-color: #222222;
+}
+/*
 a {
   font-weight: 500;
   color: #646cff;
