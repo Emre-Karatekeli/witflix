@@ -17,7 +17,6 @@
 }
 
 * {
-  border: 2px solid purple;
   font-family: 'Signika';
 }
 
@@ -74,6 +73,10 @@
   justify-content: flex-end;
 }
 
+.oneforth h3,
+.oneforth p {
+  margin: 7%;
+}
 .color4 {
   width: 540px;
   height: 210px;
@@ -170,12 +173,24 @@
 .divsub {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .divsub:nth-of-type(even){
   background-color: #222222;
 }
+
+.divsub p:first-child{
+  margin-left:40px;
+  margin-right: 60px;
+}
+
+.divsub p {
+  flex:1;
+  font-size: 26px;
+}
+
 /*
 a {
   font-weight: 500;
