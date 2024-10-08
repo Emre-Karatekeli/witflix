@@ -18,6 +18,7 @@
 
 * {
   font-family: 'Signika';
+  border: 2px solid purple;
 }
 
 .app{
@@ -190,6 +191,158 @@
   flex:1;
   font-size: 26px;
 }
+
+/* buttons */
+
+.buttoncontainer {
+  background-color: black;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  font-size: 1.4rem;
+  letter-spacing: 0.1%;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  display: flex;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+.button1{
+  width: 9rem;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button2 {
+  background-color: #757575;
+  padding: 1%;
+  width: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button3{
+  border-radius: 0;
+  background-color: #000000;
+  color: #757575;
+  border: 1px solid #757575;
+  width: 10rem;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+/* whois wathcing section */
+
+.whoiswatching {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  padding: 5%;
+  height: 30rem;
+  width: 60rem;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.body-smiley {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 11rem;
+}
+.smiley,
+.plussquare {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.smiley img {
+  width: 80%;
+}
+
+.plussquare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  margin-top: 5%;
+  border: 2px solid gray;
+  padding: 1%;
+}
+
+.plussquare img {
+  width: 50%;
+  margin-top: 14px;
+}
+
+/* screens */
+
+.screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  height: 60rem;
+  width: 20rem;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.screen-container .screen {
+  background-color: #333333;
+  width: 16rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.screen p {
+  color:white;
+  background-color: #F50723;
+  margin: 0 25%;
+  text-align: center;
+  width: 50%;
+  
+}
+
+
+.screen img {
+  align-self: flex-start;
+}
+
+
+
+.screen:nth-child(1) img:nth-of-type(2){
+  position: relative;
+  top: -145px;
+  right: -230px;
+}
+
+.screen:nth-child(1) p {
+  margin-top: 34%;
+}
+
+
 
 /*
 a {
