@@ -18,8 +18,8 @@
 
 * {
     font-family: 'Signika';
-    border: 2px solid purple;
-  }
+}
+
 body {
     background-color: #000000;
 }
@@ -55,6 +55,49 @@ header a:hover {
 
 .button-box {
     justify-content: flex-start;
+}
+
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.logos a {
+    margin: 2rem 2rem;
+}
+
+footer > div,
+footer button,
+footer span {
+    margin-left: 6rem;
+}
+
+.table a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    width: 20%;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-top: -4rem;
+}
+
+footer button {
+    background-color: black;
+    color: gray;
+    border-radius: 0;
+    width: 7rem;
+    border: 2px solid gray;
+}
+
+footer span {
+    color: gray;
 }
 
   /* Utility Classes */
