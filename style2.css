@@ -1,0 +1,84 @@
+:root {
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400; */
+  
+    /* color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424; */
+  
+    /* font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+  
+    --primary-red:#e50914;
+    --primary-black:#000000;
+  }
+
+* {
+    font-family: 'Signika';
+    border: 2px solid purple;
+  }
+body {
+    background-color: #000000;
+}
+/* header section */
+
+header a {
+    color: #D3D3D3;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: bisque;
+}
+
+/* hero section */
+.hero-box {
+    width: 30rem;
+    margin: 5% 0;
+}
+
+.button-box button {
+    width: 8rem;
+    height: 2,5rem;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box button:hover {
+    background-color: bisque;
+}
+
+.button-box {
+    justify-content: flex-start;
+}
+
+  /* Utility Classes */
+
+.flex {
+    display: flex;
+  }
+.between {
+    justify-content: space-between;
+  }
+
+.center {
+    justify-content: center;
+    align-items: center; 
+}  
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap {
+    gap: 1rem;
+}
