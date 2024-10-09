@@ -342,7 +342,14 @@ button {
   margin-top: 34%;
 }
 
+.flex {
+  display: flex;
+}
 
+.screen-halved div:nth-child(2){
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /*
 a {
